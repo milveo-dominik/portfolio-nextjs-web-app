@@ -402,22 +402,79 @@ export default function Home() {
   return (
     <main
       className="flex min-h-screen flex-col items-center justify-between"
-      style={{
-        background: `url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='8' height='8' fill='none' stroke='rgb(0 0 0 / 0.1)'%3e%3cpath d='M0 .5H31.5V32'/%3e%3c/svg%3e")`,
-      }}
+      
     >
-      <header className="bg-red-500 h-[80px] w-full"></header>
+      <header className="bg-black text-white h-[80px] w-full">
+        <div className="max-w-[1360px] mx-auto w-full h-full flex justify-between items-center px-5 lg:px-0">
+          <span className="font-black leading-6 text-xl lg:text-2xl uppercase">
+            Milveo® <br /> Experts
+          </span>
+          <button className=" bg-slate-800 no-underline group cursor-pointer relative shadow-2xl shadow-zinc-900 rounded-full p-px text-xs font-semibold leading-6  text-white inline-block">
+            <span className="absolute inset-0 overflow-hidden rounded-full">
+              <span className="absolute inset-0 rounded-full bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(56,189,248,0.6)_0%,rgba(56,189,248,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+            </span>
+            <div className="relative flex space-x-2 items-center z-10 rounded-full bg-zinc-950 py-1 px-4 ring-1 ring-white/10 ">
+              <span>Termin buchen</span>
+              <svg
+                fill="none"
+                height="16"
+                viewBox="0 0 24 24"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10.75 8.75L14.25 12L10.75 15.25"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="1.5"
+                />
+              </svg>
+            </div>
+            <span className="absolute -bottom-0 left-[1.125rem] h-px w-[calc(100%-2.25rem)] bg-gradient-to-r from-emerald-400/0 via-emerald-400/90 to-emerald-400/0 transition-opacity duration-500 group-hover:opacity-40" />
+          </button>
+        </div>
+      </header>
       <section className="w-full max-w-[1360px] mb-20">
         <div className="flex flex-col lg:flex-row h-screen-80 lg:h-auto gap-5 items-center justify-between">
-          <div className="w-full flex-grow lg:w-[40%] lg:bg-white lg:border border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-4 relative h-fit lg:h-[700px]">
+          <div className="w-full flex-grow lg:w-[40%] lg:bg-white lg:border border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-10 relative h-fit lg:h-[700px]">
             <Icon className="hidden lg:flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="hidden lg:flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="hidden lg:flex absolute h-6 w-6 -top-3 -right-3  text-black" />
             <Icon className="hidden lg:flex absolute h-6 w-6 -bottom-3 -right-3  text-black" />
-            <div className="flex flex-col">
-              <h2 className="text-5xl font-black mb-2">Geht nicht</h2>
-              <h2 className="text-3xl ">Gibt's nicht</h2>
-              <button>Jetzt Termin buchen</button>
+            <div className="hidden lg:flex flex-col">
+              <p>Ich bin</p>
+              <h2 className="text-4xl font-black mb-2">Dominik Lössl</h2>
+              <p className="mb-10">Willkommen in der Welt des E-Commerce</p>
+              <button className="w-fit bg-slate-800 no-underline group cursor-pointer relative shadow-2xl shadow-zinc-900 rounded-full p-px text-xs font-semibold leading-6  text-white inline-block">
+                <span className="absolute inset-0 overflow-hidden rounded-full">
+                  <span className="absolute inset-0 rounded-full bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(56,189,248,0.6)_0%,rgba(56,189,248,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+                </span>
+                <div className="relative flex space-x-2 items-center z-10 rounded-full bg-zinc-950 py-1 px-4 ring-1 ring-white/10 ">
+                  <span>Termin buchen</span>
+                  <svg
+                    fill="none"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10.75 8.75L14.25 12L10.75 15.25"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
+                    />
+                  </svg>
+                </div>
+                <span className="absolute -bottom-0 left-[1.125rem] h-px w-[calc(100%-2.25rem)] bg-gradient-to-r from-emerald-400/0 via-emerald-400/90 to-emerald-400/0 transition-opacity duration-500 group-hover:opacity-40" />
+              </button>
+            </div>
+            <div className="lg:hidden flex flex-col">
+              <p>Ich bin</p>
+              <h2 className="text-4xl font-black mb-2">Dominik Lössl</h2>
+              <p>Willkommener in der Welt des E-Commerce</p>
             </div>
           </div>
           <div className="w-full lg:w-[60%] h-[55vh] lg:h-[700px] hover:text-white border border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto px-4 relative">
@@ -463,7 +520,7 @@ export default function Home() {
                     />
                   </motion.div>
                 </AnimatePresence>
-                <h2 className="font-black text-3xl lg:text-5xl top-5 left-5 lg:top-10 lg:right-10 absolute">
+                <h2 className="font-black text-3xl lg:text-5xl top-5 left-5 lg:left-auto lg:top-10 lg:right-10 absolute">
                   Full-Stack <br /> Developer
                 </h2>
               </div>
@@ -483,7 +540,7 @@ export default function Home() {
   );
 }
 
-export const Icon = ({ className, ...rest }: any) => {
+function Icon({ className, ...rest }: any) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -497,4 +554,4 @@ export const Icon = ({ className, ...rest }: any) => {
       <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m6-6H6" />
     </svg>
   );
-};
+}
