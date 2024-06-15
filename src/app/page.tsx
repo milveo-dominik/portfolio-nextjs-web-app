@@ -10,6 +10,29 @@ const World = dynamic(() => import("../components/ui/globe").then((m) => m.World
   ssr: false,
 });
 
+const globeConfig = {
+  pointSize: 10,
+  globeColor: "#000000",
+  showAtmosphere: true,
+  atmosphereColor: "#FFFFFF",
+  atmosphereAltitude: 0.1,
+  emissive: "#000000",
+  emissiveIntensity: 0.1,
+  shininess: 0.9,
+  polygonColor: "rgba(255,255,255,0.7)",
+  ambientLight: "#38bdf8",
+  directionalLeftLight: "#ffffff",
+  directionalTopLight: "#ffffff",
+  pointLight: "#ffffff",
+  arcTime: 1000,
+  arcLength: 0.9,
+  rings: 1,
+  maxRings: 3,
+  initialPosition: { lat: 22.3193, lng: 114.1694 },
+  autoRotate: true,
+  autoRotateSpeed: 2,
+};
+
 const colors = ["#06b6d4", "#3b82f6", "#6366f1"];
 const sampleArcs = [
   {
@@ -376,28 +399,7 @@ const sampleArcs = [
 
 export default function Home() {
 
-  const globeConfig = {
-    pointSize: 10,
-    globeColor: "#062056",
-    showAtmosphere: true,
-    atmosphereColor: "#FFFFFF",
-    atmosphereAltitude: 0.1,
-    emissive: "#062056",
-    emissiveIntensity: 0.1,
-    shininess: 0.9,
-    polygonColor: "rgba(255,255,255,0.7)",
-    ambientLight: "#38bdf8",
-    directionalLeftLight: "#ffffff",
-    directionalTopLight: "#ffffff",
-    pointLight: "#ffffff",
-    arcTime: 1000,
-    arcLength: 0.9,
-    rings: 1,
-    maxRings: 3,
-    initialPosition: { lat: 22.3193, lng: 114.1694 },
-    autoRotate: false,
-    autoRotateSpeed: 1,
-  };
+ 
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
@@ -434,7 +436,7 @@ export default function Home() {
       </header>
       <section className="w-full max-w-[1360px] mb-20">
         <div className="flex flex-col lg:flex-row h-screen-80 lg:h-auto gap-5 items-center justify-between">
-          <div className="w-full flex-grow lg:w-[40%] lg:bg-white lg:border border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-10 py-5 relative h-fit lg:h-[700px]">
+          <div className="w-full flex-grow lg:w-[40%] lg:bg-white lg:border border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 lg:p-10 relative h-fit lg:h-[700px]">
             <Icon className="hidden lg:flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="hidden lg:flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="hidden lg:flex absolute h-6 w-6 -top-3 -right-3  text-black" />
