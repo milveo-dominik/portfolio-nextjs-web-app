@@ -400,10 +400,7 @@ export default function Home() {
   };
 
   return (
-    <main
-      className="flex min-h-screen flex-col items-center justify-between"
-      
-    >
+    <main className="flex min-h-screen flex-col items-center justify-between">
       <header className="bg-black text-white h-[80px] w-full">
         <div className="max-w-[1360px] mx-auto w-full h-full flex justify-between items-center px-5 lg:px-0">
           <span className="font-black leading-6 text-xl lg:text-2xl uppercase">
@@ -437,7 +434,7 @@ export default function Home() {
       </header>
       <section className="w-full max-w-[1360px] mb-20">
         <div className="flex flex-col lg:flex-row h-screen-80 lg:h-auto gap-5 items-center justify-between">
-          <div className="w-full flex-grow lg:w-[40%] lg:bg-white lg:border border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-10 relative h-fit lg:h-[700px]">
+          <div className="w-full flex-grow lg:w-[40%] lg:bg-white lg:border border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-10 py-5 relative h-fit lg:h-[700px]">
             <Icon className="hidden lg:flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="hidden lg:flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="hidden lg:flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -445,7 +442,10 @@ export default function Home() {
             <div className="hidden lg:flex flex-col">
               <p>Ich bin</p>
               <h2 className="text-4xl font-black mb-2">Dominik Lössl</h2>
-              <p className="mb-10">Willkommen in der Welt des E-Commerce</p>
+              <p className="mb-5">
+                und helfe Unternehmen dabei, ihre Online-Präsenz zu optimieren
+                und ihre Umsätze zu steigern.
+              </p>
               <button className="w-fit bg-slate-800 no-underline group cursor-pointer relative shadow-2xl shadow-zinc-900 rounded-full p-px text-xs font-semibold leading-6  text-white inline-block">
                 <span className="absolute inset-0 overflow-hidden rounded-full">
                   <span className="absolute inset-0 rounded-full bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(56,189,248,0.6)_0%,rgba(56,189,248,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
@@ -474,17 +474,20 @@ export default function Home() {
             <div className="lg:hidden flex flex-col">
               <p>Ich bin</p>
               <h2 className="text-4xl font-black mb-2">Dominik Lössl</h2>
-              <p>Willkommener in der Welt des E-Commerce</p>
+              <p>
+                und helfe Unternehmen dabei, ihre Online-Präsenz zu optimieren
+                und ihre Umsätze zu steigern.
+              </p>
             </div>
           </div>
-          <div className="w-full lg:w-[60%] h-[55vh] lg:h-[700px] hover:text-white border border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto px-4 relative">
+          <div className="w-full lg:w-[60%] h-[50vh] lg:h-[700px] hover:text-white border-y border-black/[0.1] lg:border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto px-4 relative">
             <Icon className="hidden lg:flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="hidden lg:flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="hidden lg:flex absolute h-6 w-6 -top-3 -right-3  text-black" />
             <Icon className="hidden lg:flex absolute h-6 w-6 -bottom-3 -right-3  text-black" />
 
             <div className="flex absolute w-full h-full justify-center items-center">
-              <div className="lg:bg-white text-black h-full w-1/2 relative overflow-hidden">
+              <div className="bg-boxes text-black h-full w-1/2 relative overflow-hidden">
                 <h2 className="font-black text-3xl lg:text-5xl ml-5 mt-5 lg:mt-10 lg:ml-10">
                   Shopify <br /> Experte
                 </h2>
@@ -526,7 +529,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="w-3/4 flex justify-center relative h-full">
+            <div className="w-3/4 lg:w-3/4 flex justify-center relative h-full">
               <img
                 src="/images/BusinessPic.png"
                 alt="Dominik Loessl"
