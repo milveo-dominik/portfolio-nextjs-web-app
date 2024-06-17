@@ -703,7 +703,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="w-full lg:w-[60%] h-[50vh] lg:h-[700px] hover:text-white border-y border-black/[0.1] lg:border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto px-4 relative">
+          <div className="w-full lg:w-[60%] h-[50vh] lg:h-[700px] hover:text-white border-black/[0.1] lg:border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto px-4 relative">
             <Icon className="hidden lg:flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="hidden lg:flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="hidden lg:flex absolute h-6 w-6 -top-3 -right-3  text-black" />
