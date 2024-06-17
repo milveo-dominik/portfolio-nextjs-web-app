@@ -58,7 +58,10 @@ export const HoverEffect = ({
             <ul className="flex gap-2">
               {item.badges?.map((badge, index) => {
                 return (
-                  <li className="bg-white px-2 py-1 text-xs lg:text-sm text-black rounded-md">
+                  <li
+                    key={index}
+                    className="bg-white px-2 py-1 text-xs lg:text-sm text-black rounded-md"
+                  >
                     {badge}
                   </li>
                 );

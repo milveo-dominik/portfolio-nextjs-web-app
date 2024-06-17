@@ -43,6 +43,7 @@ import {
   TSLogo,
   VercelLogo,
   VSCodeInsidersLogo,
+  Milveo,
 } from "../../../public/images/logos";
 import { CheckoutIcon, CodingIcon, CROIcon, PerformanceIcon, TrackingIcon } from "../../../public/images/icons";
 
@@ -487,7 +488,7 @@ function renderShopifyStack() {
 
     for (let i = 0; i < stack.length; i++) {
       result.push(
-        <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.1] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+        <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
           <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
           <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
           <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -526,7 +527,11 @@ export default function Home() {
             <span className="absolute inset-0 overflow-hidden rounded-full">
               <span className="absolute inset-0 rounded-full bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(56,189,248,0.6)_0%,rgba(56,189,248,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
             </span>
-            <div className="relative flex space-x-2 items-center z-10 rounded-full bg-zinc-950 py-1 px-4 ring-1 ring-white/10 ">
+            <a
+              href="https://calendly.com/d-loessl/erstgespraech"
+              target="_blank"
+              className="relative flex space-x-2 items-center z-10 rounded-full bg-zinc-950 py-1 px-4 ring-1 ring-white/10 "
+            >
               <span>Termin buchen</span>
               <svg
                 fill="none"
@@ -543,12 +548,12 @@ export default function Home() {
                   strokeWidth="1.5"
                 />
               </svg>
-            </div>
+            </a>
             <span className="absolute -bottom-0 left-[1.125rem] h-px w-[calc(100%-2.25rem)] bg-gradient-to-r from-emerald-400/0 via-emerald-400/90 to-emerald-400/0 transition-opacity duration-500 group-hover:opacity-40" />
           </button>
         </div>
       </header>
-      <section className="w-full max-w-[1360px] mb-20 lg:mb-40 lg:mt-10 pt-[80px] lg:px-5">
+      <section className="w-full max-w-[1360px] mb-20 lg:mb-20 lg:mt-10 pt-[80px] lg:px-5">
         <div className="flex flex-col-reverse lg:flex-row lg:h-auto gap-5 items-center justify-between">
           <div className="w-full flex-grow lg:w-[40%] lg:bg-white lg:border border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 lg:p-10 relative h-fit lg:h-[700px]">
             <Icon className="hidden lg:flex absolute h-6 w-6 -top-3 -left-3  text-black" />
@@ -556,67 +561,139 @@ export default function Home() {
             <Icon className="hidden lg:flex absolute h-6 w-6 -top-3 -right-3  text-black" />
             <Icon className="hidden lg:flex absolute h-6 w-6 -bottom-3 -right-3  text-black" />
             <div className="flex flex-col">
-              <p className="mb-2">👋 Ich bin</p>
-              <h2 className="text-4xl font-black mb-2">Dominik Lössl</h2>
-              <p className="mb-5">
-                und helfe Unternehmen dabei, ihre Online-Präsenz zu optimieren
-                und ihre Umsätze zu steigern.
+              <p className="mb-2 text-sm">👋 Ich bin</p>
+              <h2 className="text-4xl font-black mb-3">Dominik Lössl</h2>
+              <p className="mb-2 lg:mb-5 text-sm">
+                und leidenschaftlicher Full-Stack Entwickler. Mit über 10 Jahren
+                Erfahrung im Aufbau robuster und skalierbarer Webanwendungen,
+                sowohl im E-Commerce-Bereich als auch in anderen Branchen,
+                beherrsche ich sowohl die Frontend- als auch die
+                Backend-Entwicklung in mehreren Programmiersprachen und
+                Frameworks. <br /> <br />
+                In den letzten 5 Jahren legte ich meinen Fokus stark auf den
+                E-Commerce Bereich und die Entwicklung performanter, conversion
+                optimierter Onlineshops mit Shopify (Plus) im Mittelstand &
+                Enterprise Bereich. Durch den Betrieb eigener Onlineshops und
+                Marktplatzgeschäften habe ich den direkten Einblick und kenne
+                die Probleme der Kunden. <br /> <br />
               </p>
-              <ul className="flex-col gap-1 mb-10">
-                <li className="flex gap-2 align-middle items-center">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    id="check-square"
-                    height="20"
-                    width="20"
-                  >
-                    <path
-                      fill="#000000"
-                      d="M10.21,14.75a1,1,0,0,0,1.42,0l4.08-4.08a1,1,0,0,0-1.42-1.42l-3.37,3.38L9.71,11.41a1,1,0,0,0-1.42,1.42ZM21,2H3A1,1,0,0,0,2,3V21a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V3A1,1,0,0,0,21,2ZM20,20H4V4H20Z"
-                    ></path>
-                  </svg>
-                  <span className="font-semibold text-sm">
-                    10+ Jahre Erfahrung
-                  </span>
-                </li>
-                <li className="flex gap-2 align-middle items-center">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    id="check-square"
-                    height="20"
-                    width="20"
-                  >
-                    <path
-                      fill="#000000"
-                      d="M10.21,14.75a1,1,0,0,0,1.42,0l4.08-4.08a1,1,0,0,0-1.42-1.42l-3.37,3.38L9.71,11.41a1,1,0,0,0-1.42,1.42ZM21,2H3A1,1,0,0,0,2,3V21a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V3A1,1,0,0,0,21,2ZM20,20H4V4H20Z"
-                    ></path>
-                  </svg>
-                  <span className="font-semibold text-sm">Projektmanager</span>
-                </li>
-                <li className="flex gap-2 align-middle items-center">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    id="check-square"
-                    height="20"
-                    width="20"
-                  >
-                    <path
-                      fill="#000000"
-                      d="M10.21,14.75a1,1,0,0,0,1.42,0l4.08-4.08a1,1,0,0,0-1.42-1.42l-3.37,3.38L9.71,11.41a1,1,0,0,0-1.42,1.42ZM21,2H3A1,1,0,0,0,2,3V21a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V3A1,1,0,0,0,21,2ZM20,20H4V4H20Z"
-                    ></path>
-                  </svg>
-                  <span className="font-semibold text-sm">Lead Developer</span>
-                </li>
-              </ul>
+              <div className="flex gap-3 lg:gap-5 mb-5 lg:mb-10">
+                <ul className="flex-col gap-1 lg:mb-5">
+                  <li className="flex gap-1 align-middle items-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      id="check-square"
+                      height="20"
+                      width="20"
+                    >
+                      <path
+                        fill="#000000"
+                        d="M10.21,14.75a1,1,0,0,0,1.42,0l4.08-4.08a1,1,0,0,0-1.42-1.42l-3.37,3.38L9.71,11.41a1,1,0,0,0-1.42,1.42ZM21,2H3A1,1,0,0,0,2,3V21a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V3A1,1,0,0,0,21,2ZM20,20H4V4H20Z"
+                      ></path>
+                    </svg>
+                    <span className="font-semibold text-xs lg:text-sm">
+                      10+ Jahre Erfahrung
+                    </span>
+                  </li>
+                  <li className="flex gap-2 align-middle items-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      id="check-square"
+                      height="20"
+                      width="20"
+                    >
+                      <path
+                        fill="#000000"
+                        d="M10.21,14.75a1,1,0,0,0,1.42,0l4.08-4.08a1,1,0,0,0-1.42-1.42l-3.37,3.38L9.71,11.41a1,1,0,0,0-1.42,1.42ZM21,2H3A1,1,0,0,0,2,3V21a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V3A1,1,0,0,0,21,2ZM20,20H4V4H20Z"
+                      ></path>
+                    </svg>
+                    <span className="font-semibold text-xs lg:text-sm">
+                      Projektmanager
+                    </span>
+                  </li>
+                  <li className="flex gap-2 align-middle items-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      id="check-square"
+                      height="20"
+                      width="20"
+                    >
+                      <path
+                        fill="#000000"
+                        d="M10.21,14.75a1,1,0,0,0,1.42,0l4.08-4.08a1,1,0,0,0-1.42-1.42l-3.37,3.38L9.71,11.41a1,1,0,0,0-1.42,1.42ZM21,2H3A1,1,0,0,0,2,3V21a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V3A1,1,0,0,0,21,2ZM20,20H4V4H20Z"
+                      ></path>
+                    </svg>
+                    <span className="font-semibold text-xs lg:text-sm">
+                      Lead Developer
+                    </span>
+                  </li>
+                </ul>
+                <ul className="flex-col gap-1">
+                  <li className="flex gap-2 align-middle items-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      id="check-square"
+                      height="20"
+                      width="20"
+                    >
+                      <path
+                        fill="#000000"
+                        d="M10.21,14.75a1,1,0,0,0,1.42,0l4.08-4.08a1,1,0,0,0-1.42-1.42l-3.37,3.38L9.71,11.41a1,1,0,0,0-1.42,1.42ZM21,2H3A1,1,0,0,0,2,3V21a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V3A1,1,0,0,0,21,2ZM20,20H4V4H20Z"
+                      ></path>
+                    </svg>
+                    <span className="font-semibold text-xs lg:text-sm">
+                      E-Commerce Berater
+                    </span>
+                  </li>
+                  <li className="flex gap-2 align-middle items-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      id="check-square"
+                      height="20"
+                      width="20"
+                    >
+                      <path
+                        fill="#000000"
+                        d="M10.21,14.75a1,1,0,0,0,1.42,0l4.08-4.08a1,1,0,0,0-1.42-1.42l-3.37,3.38L9.71,11.41a1,1,0,0,0-1.42,1.42ZM21,2H3A1,1,0,0,0,2,3V21a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V3A1,1,0,0,0,21,2ZM20,20H4V4H20Z"
+                      ></path>
+                    </svg>
+                    <span className="font-semibold text-xs lg:text-sm">
+                      Onlineshop Betreiber
+                    </span>
+                  </li>
+                  <li className="flex gap-2 align-middle items-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      id="check-square"
+                      height="20"
+                      width="20"
+                    >
+                      <path
+                        fill="#000000"
+                        d="M10.21,14.75a1,1,0,0,0,1.42,0l4.08-4.08a1,1,0,0,0-1.42-1.42l-3.37,3.38L9.71,11.41a1,1,0,0,0-1.42,1.42ZM21,2H3A1,1,0,0,0,2,3V21a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V3A1,1,0,0,0,21,2ZM20,20H4V4H20Z"
+                      ></path>
+                    </svg>
+                    <span className="font-semibold text-xs lg:text-sm">
+                      Milveo® Gründer & CTO
+                    </span>
+                  </li>
+                </ul>
+              </div>
               <div className="flex gap-3">
                 <button className="w-fit bg-slate-800 no-underline group cursor-pointer relative shadow-2xl shadow-zinc-900 rounded-full p-px text-xs font-semibold leading-6  text-white inline-block">
                   <span className="absolute inset-0 overflow-hidden rounded-full">
                     <span className="absolute inset-0 rounded-full bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(56,189,248,0.6)_0%,rgba(56,189,248,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
                   </span>
-                  <div className="relative flex space-x-2 items-center z-10 rounded-full bg-zinc-950 py-1 px-4 ring-1 ring-white/10 ">
+                  <a 
+                  href="https://calendly.com/d-loessl/erstgespraech"
+                  target="_blank"
+                  className="relative flex space-x-2 items-center z-10 rounded-full bg-zinc-950 py-1 px-4 ring-1 ring-white/10 ">
                     <span>Termin buchen</span>
                     <svg
                       fill="none"
@@ -633,7 +710,7 @@ export default function Home() {
                         strokeWidth="1.5"
                       />
                     </svg>
-                  </div>
+                  </a>
                   <span className="absolute -bottom-0 left-[1.125rem] h-px w-[calc(100%-2.25rem)] bg-gradient-to-r from-emerald-400/0 via-emerald-400/90 to-emerald-400/0 transition-opacity duration-500 group-hover:opacity-40" />
                 </button>
                 <button className="invert w-fit bg-slate-800 no-underline group cursor-pointer relative shadow-2xl shadow-zinc-900 rounded-full p-px text-xs font-semibold leading-6  text-white inline-block">
@@ -727,6 +804,75 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="w-full flex flex-col lg:flex-row gap-5 max-w-[1360px] mb-20 lg:mb-40 px-5">
+        <div className="w-full lg:w-[40%] hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
+          <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
+          <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
+          <Icon className="flex absolute h-6 w-6 -bottom-3 -right-3  text-black" />
+          <a
+            href="https://www.milveo.com/"
+            className="w-full flex justify-center py-10"
+          >
+            <img src={Milveo.src} alt="Milveo" className="w-3/4" />
+          </a>
+        </div>
+        <div className="w-full lg:w-[60%] hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-10 relative">
+          <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
+          <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
+          <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
+          <Icon className="flex absolute h-6 w-6 -bottom-3 -right-3  text-black" />
+
+          <div>
+            <div className="mb-5">
+              Durch den Aufbau der Digital Agentur Milveo®, können wir Kunden
+              eine Rundumbetreuung ermöglichen, welche alle Bereiche eines
+              E-Commerce Unternehmens abdeckt. <br />
+              <br />
+              Durch diese Erfahrungen konnte ich mir ein einzigartiges Skillset
+              erarbeiten, welches es mir ermöglicht den Blick von außen auf
+              Firmenprozesse, Marketing, Logistik, IT Landschaft und deren
+              Zusammenspiel im E-Commerce Bereich zu werfen, <br /> <br />
+              Optimierungsstrategien zu entwickeln und technisch zu
+              implementieren.
+              <br />
+              Dieses geballte Wissen bringe ich als Full-Stack Entwickler,
+              Shopify Experte und E-Commerce Berater in dein Projekt.
+            </div>
+            <div className="flex justify-end gap-3">
+              <button className="w-fit bg-slate-800 no-underline group cursor-pointer relative shadow-2xl shadow-zinc-900 rounded-full p-px text-xs font-semibold leading-6  text-white inline-block">
+                <span className="absolute inset-0 overflow-hidden rounded-full">
+                  <span className="absolute inset-0 rounded-full bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(56,189,248,0.6)_0%,rgba(56,189,248,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+                </span>
+                <a
+                  href="https://calendly.com/d-loessl/erstgespraech"
+                  target="_blank"
+                  className="relative flex space-x-2 items-center z-10 rounded-full bg-zinc-950 py-1 px-4 ring-1 ring-white/10 "
+                >
+                  <span>Termin buchen</span>
+                  <svg
+                    fill="none"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10.75 8.75L14.25 12L10.75 15.25"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
+                    />
+                  </svg>
+                </a>
+                <span className="absolute -bottom-0 left-[1.125rem] h-px w-[calc(100%-2.25rem)] bg-gradient-to-r from-emerald-400/0 via-emerald-400/90 to-emerald-400/0 transition-opacity duration-500 group-hover:opacity-40" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="w-full max-w-[1360px] mb-20 lg:mb-40 px-5">
         <h1 className="text-3xl lg:text-5xl font-black mb-10">
           Shopify Expertise
@@ -739,7 +885,7 @@ export default function Home() {
       <section className="w-full max-w-[1360px] mb-20 lg:mb-40 px-5">
         <h1 className="text-3xl lg:text-5xl font-black mb-10">Tech Stack</h1>
         <div className="grid grid-cols-2 lg:grid-cols-5 gap-5">
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.1] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -759,7 +905,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">Next.js</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.1] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -776,7 +922,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">React</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.1] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -796,7 +942,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">JavaScript</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.1] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -816,7 +962,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">TypeScript</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.1] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -833,7 +979,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">Node.js</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.1] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -850,7 +996,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">GraphQL</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.1] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -867,7 +1013,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">tailwind css</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.1] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -887,7 +1033,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">AWS</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.1] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -904,7 +1050,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">Vercel</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.1] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -921,7 +1067,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">Storybook</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.1] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -938,7 +1084,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">PostgresSQL</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.1] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -955,7 +1101,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">MySQL</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.1] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -972,7 +1118,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">NoSQL</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.1] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -989,7 +1135,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">Docker</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.1] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1011,7 +1157,7 @@ export default function Home() {
       <section className="w-full max-w-[1360px] mb-20 lg:mb-40 px-5">
         <h1 className="text-3xl lg:text-5xl font-black mb-10">APIs</h1>
         <div className="grid grid-cols-2 lg:grid-cols-5 gap-5">
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.1] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1024,7 +1170,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">ChatGPT</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.1] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1036,7 +1182,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">DHL</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.1] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1048,7 +1194,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">Internetmarke</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.1] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1060,7 +1206,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">DPD</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.1] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1072,7 +1218,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">FedEx</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.1] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1084,7 +1230,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">Shopify (Plus)</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.1] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1096,7 +1242,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">Amazon</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.1] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1108,7 +1254,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">Stripe</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.1] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1120,7 +1266,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">Klaviyo</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.1] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1137,7 +1283,7 @@ export default function Home() {
       <section className="w-full max-w-[1360px] mb-20 lg:mb-40 px-5">
         <h1 className="text-3xl lg:text-5xl font-black mb-10">Skills/Tools</h1>
         <div className="grid grid-cols-2 lg:grid-cols-5 gap-5">
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.1] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1149,7 +1295,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">Scrum</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.1] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1161,7 +1307,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">Kanban</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.1] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1173,7 +1319,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">ClickUp</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.1] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1185,7 +1331,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">Jira</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.1] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1197,7 +1343,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">Trello</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.1] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1209,7 +1355,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">Asana</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.1] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1221,7 +1367,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">Git</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.1] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1233,7 +1379,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">GitHub Actions</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.1] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1245,7 +1391,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">Prompt Engineering</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.1] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1325,7 +1471,7 @@ export default function Home() {
                 "Lass uns deinen spezifischen Case gerne in ein einem kostenlosen Erstgespräch besprechen und eine mögliche Zusammenarbeit evaluieren.",
               link: "https://calendly.com/d-loessl/erstgespraech",
               badges: ["Stundenbasiert", "Festpreis", "Langzeit"],
-              icon: "rocket"
+              icon: "rocket",
             },
           ]}
         />
@@ -1381,7 +1527,11 @@ export default function Home() {
           <span className="absolute inset-0 overflow-hidden rounded-full">
             <span className="absolute inset-0 rounded-full bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(56,189,248,0.6)_0%,rgba(56,189,248,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
           </span>
-          <div className="relative flex space-x-2 items-center z-10 rounded-full bg-zinc-950 py-1 px-4 ring-1 ring-white/10 ">
+          <a
+            href="https://calendly.com/d-loessl/erstgespraech"
+            target="_blank"
+            className="relative flex space-x-2 items-center z-10 rounded-full bg-zinc-950 py-1 px-4 ring-1 ring-white/10 "
+          >
             <span>Termin buchen</span>
             <svg
               fill="none"
@@ -1398,7 +1548,7 @@ export default function Home() {
                 strokeWidth="1.5"
               />
             </svg>
-          </div>
+          </a>
           <span className="absolute -bottom-0 left-[1.125rem] h-px w-[calc(100%-2.25rem)] bg-gradient-to-r from-emerald-400/0 via-emerald-400/90 to-emerald-400/0 transition-opacity duration-500 group-hover:opacity-40" />
         </button>
         <a

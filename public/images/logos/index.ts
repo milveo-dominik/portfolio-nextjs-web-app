@@ -18,6 +18,7 @@ import KanbanLogo from './kanban.jpg';
 import KlaviyoLogo from './klaviyo.png';
 import KubernetesLogo from './kubernetes.png';
 import MapsLogo from './maps.png';
+import Milveo from './milveo-black.png';
 import MySQLLogo from './mysql.png';
 import NextJSLogo from './nextjs.svg';
 import NodeJSLogo from './nodejs.svg';
@@ -55,6 +56,7 @@ export {
     KlaviyoLogo,
     KubernetesLogo,
     MapsLogo,
+    Milveo,
     MySQLLogo,
     NextJSLogo,
     NodeJSLogo,
