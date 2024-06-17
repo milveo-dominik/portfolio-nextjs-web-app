@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     images: [
       {
-        url: "https://dominik-loessl.de/images/opengraph-image.jpg",
+        url: "https://experts.milveo.com/images/opengraph-image.jpg",
         width: 800,
         height: 800,
         alt: "Mein Name ist  Dominik Lössl und mit meiner Expertise in Shopify (Plus) und als Full-Stack-Entwickler, mit mehr als 10 Jahren Erfahrung, helfe ich Unternehmen dabei, ihre Online-Präsenz zu optimieren und ihre Umsätze zu steigern.",
