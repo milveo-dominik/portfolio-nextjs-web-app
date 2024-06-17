@@ -474,20 +474,20 @@ export default function Home() {
         </div>
       </header>
       <section className="w-full max-w-[1360px] mb-20 lg:mb-40 lg:mt-10 pt-[80px] lg:px-5">
-        <div className="flex flex-col lg:flex-row h-screen-80 lg:h-auto gap-5 items-center justify-between">
+        <div className="flex flex-col-reverse lg:flex-row lg:h-auto gap-5 items-center justify-between">
           <div className="w-full flex-grow lg:w-[40%] lg:bg-white lg:border border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 lg:p-10 relative h-fit lg:h-[700px]">
             <Icon className="hidden lg:flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="hidden lg:flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="hidden lg:flex absolute h-6 w-6 -top-3 -right-3  text-black" />
             <Icon className="hidden lg:flex absolute h-6 w-6 -bottom-3 -right-3  text-black" />
             <div className="hidden lg:flex flex-col">
-              <p>Ich bin</p>
+              <p className="mb-2">Ich bin</p>
               <h2 className="text-4xl font-black mb-2">Dominik Lössl</h2>
               <p className="mb-5">
                 und helfe Unternehmen dabei, ihre Online-Präsenz zu optimieren
                 und ihre Umsätze zu steigern.
               </p>
-              <ul className="flex flex-col gap-1 mb-10">
+              <ul className="flex-col gap-1 mb-10">
                 <li className="flex gap-2 align-middle items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -594,11 +594,60 @@ export default function Home() {
             <div className="lg:hidden flex flex-col">
               <p className="text-sm lg:text-base">👋 Ich bin</p>
               <h2 className="text-4xl font-black mb-2">Dominik Lössl</h2>
-              <p className="text-sm lg:text-base">
+              <p className="text-sm lg:text-base mb-5">
                 und helfe Unternehmen dabei, ihre Online-Präsenz zu optimieren
                 und ihre Umsätze zu steigern.
               </p>
-              <div className="flex gap-3 mt-5">
+              <ul className="hidden flex-col gap-1 mb-10">
+                <li className="flex gap-2 align-middle items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    id="check-square"
+                    height="20"
+                    width="20"
+                  >
+                    <path
+                      fill="#000000"
+                      d="M10.21,14.75a1,1,0,0,0,1.42,0l4.08-4.08a1,1,0,0,0-1.42-1.42l-3.37,3.38L9.71,11.41a1,1,0,0,0-1.42,1.42ZM21,2H3A1,1,0,0,0,2,3V21a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V3A1,1,0,0,0,21,2ZM20,20H4V4H20Z"
+                    ></path>
+                  </svg>
+                  <span className="font-semibold text-sm">
+                    10+ Jahre Erfahrung
+                  </span>
+                </li>
+                <li className="flex gap-2 align-middle items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    id="check-square"
+                    height="20"
+                    width="20"
+                  >
+                    <path
+                      fill="#000000"
+                      d="M10.21,14.75a1,1,0,0,0,1.42,0l4.08-4.08a1,1,0,0,0-1.42-1.42l-3.37,3.38L9.71,11.41a1,1,0,0,0-1.42,1.42ZM21,2H3A1,1,0,0,0,2,3V21a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V3A1,1,0,0,0,21,2ZM20,20H4V4H20Z"
+                    ></path>
+                  </svg>
+                  <span className="font-semibold text-sm">Projektmanager</span>
+                </li>
+                <li className="flex gap-2 align-middle items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    id="check-square"
+                    height="20"
+                    width="20"
+                  >
+                    <path
+                      fill="#000000"
+                      d="M10.21,14.75a1,1,0,0,0,1.42,0l4.08-4.08a1,1,0,0,0-1.42-1.42l-3.37,3.38L9.71,11.41a1,1,0,0,0-1.42,1.42ZM21,2H3A1,1,0,0,0,2,3V21a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V3A1,1,0,0,0,21,2ZM20,20H4V4H20Z"
+                    ></path>
+                  </svg>
+                  <span className="font-semibold text-sm">Lead Developer</span>
+                </li>
+              </ul>
+              <div className="flex gap-3">
                 <button className="w-fit bg-slate-800 no-underline group cursor-pointer relative shadow-2xl shadow-zinc-900 rounded-full p-px text-xs font-semibold leading-6  text-white inline-block">
                   <span className="absolute inset-0 overflow-hidden rounded-full">
                     <span className="absolute inset-0 rounded-full bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(56,189,248,0.6)_0%,rgba(56,189,248,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
@@ -630,7 +679,7 @@ export default function Home() {
                   <a
                     href="/CV_Dominik_Loessl.pdf"
                     target="_blank"
-                    className="relative flex space-x-2 items-center z-10 rounded-full bg-zinc-950 py-1 px-4 ring-1 ring-white/10"
+                    className="relative flex space-x-2 items-center z-10 rounded-full bg-zinc-950 py-1 px-4 ring-1 ring-white/10 "
                   >
                     <span>CV downloaden</span>
                     <svg
