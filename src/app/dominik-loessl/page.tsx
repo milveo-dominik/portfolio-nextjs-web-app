@@ -690,10 +690,11 @@ export default function Home() {
                   <span className="absolute inset-0 overflow-hidden rounded-full">
                     <span className="absolute inset-0 rounded-full bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(56,189,248,0.6)_0%,rgba(56,189,248,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
                   </span>
-                  <a 
-                  href="https://calendly.com/d-loessl/erstgespraech"
-                  target="_blank"
-                  className="relative flex space-x-2 items-center z-10 rounded-full bg-zinc-950 py-1 px-4 ring-1 ring-white/10 ">
+                  <a
+                    href="https://calendly.com/d-loessl/erstgespraech"
+                    target="_blank"
+                    className="relative flex space-x-2 items-center z-10 rounded-full bg-zinc-950 py-1 px-4 ring-1 ring-white/10 "
+                  >
                     <span>Termin buchen</span>
                     <svg
                       fill="none"
@@ -832,9 +833,10 @@ export default function Home() {
               Durch diese Erfahrungen konnte ich mir ein einzigartiges Skillset
               erarbeiten, welches es mir ermöglicht den Blick von außen auf
               Firmenprozesse, Marketing, Logistik, IT Landschaft und deren
-              Zusammenspiel im E-Commerce Bereich zu werfen, <br /> <br />
+              Zusammenspiel im E-Commerce Bereich zu werfen,
               Optimierungsstrategien zu entwickeln und technisch zu
               implementieren.
+              <br />
               <br />
               Dieses geballte Wissen bringe ich als Full-Stack Entwickler,
               Shopify Experte und E-Commerce Berater in dein Projekt.
