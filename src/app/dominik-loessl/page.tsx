@@ -1,7 +1,6 @@
 "use client";
 
 import React, { ReactElement } from "react";
-import type { Metadata } from "next";
 import { AnimatePresence, motion } from "framer-motion";
 import { CanvasRevealEffect } from "@/components/ui/canvas-reveal-effect";
 import dynamic from "next/dynamic";
@@ -515,12 +514,6 @@ function renderFullStackTechStack() {
 function renderSkillsStack() {
   return <div>Test</div>
 }
-
-export const metadata: Metadata = {
-  title: "Shopify Experte & Full Stack Developer",
-  description:
-    "Mein Name ist Dominik Lössl und mit meiner Expertise in Shopify (Plus) und als Full-Stack-Entwickler, mit mehr als 10 Jahren Erfahrung, helfe ich Unternehmen dabei, ihre Online-Präsenz zu optimieren und ihre Umsätze zu steigern.",
-};
 
 export default function Home() {
   return (
