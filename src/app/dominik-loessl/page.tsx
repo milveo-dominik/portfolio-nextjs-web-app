@@ -564,7 +564,7 @@ export default function Home() {
               <p className="mb-2 text-sm">👋 Ich bin</p>
               <h2 className="text-4xl font-black mb-3">Dominik Lössl</h2>
               <p className="mb-2 lg:mb-5 text-sm">
-                und leidenschaftlicher Full-Stack Entwickler. Mit über 10 Jahren
+                und leidenschaftlicher Full-Stack Developer. Mit über 10 Jahren
                 Erfahrung im Aufbau robuster und skalierbarer Webanwendungen,
                 sowohl im E-Commerce-Bereich als auch in anderen Branchen,
                 beherrsche ich sowohl die Frontend- als auch die
