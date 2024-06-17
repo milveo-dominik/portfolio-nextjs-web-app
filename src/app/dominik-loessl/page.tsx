@@ -1415,7 +1415,7 @@ export default function Home() {
               title: "Freiluftkind",
               description:
                 "Weiterentwicklung, Optimierung und Skalierung des Shopify Plus Stores. Performance Analyse und Optimierung. Tracking Implementierung inkl. Server-Side-Tracking.",
-              link: "https://freiluftkind.com",
+              link: "https://freiluftkind.de",
               badges: ["Shopify Plus", "Theme", "Checkout", "Tracking"],
             },
             {
@@ -1442,7 +1442,7 @@ export default function Home() {
             {
               title: "Check Your Health",
               description:
-                "Umzug und Entwicklung des Shopify Plus Stores. Checkout Erweiterung und Performance Optimierung. Conversion Rate Optimierung und Produktpaletten Anpassung. SchnittstellenßEntwicklung zum Labor.",
+                "Umzug und Entwicklung des Shopify Stores. Performance Optimierung und E-Mail Marketing (Klaviyo). Conversion Rate Optimierung und Produktpaletten Anpassung. Schnittstellen-Entwicklung zum Labor.",
               link: "https://checkyourhealth.ch",
               badges: ["Shopify", "Theme", "Tracking", "Klaviyo", "AWS"],
             },
