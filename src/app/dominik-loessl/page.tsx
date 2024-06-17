@@ -488,7 +488,7 @@ function renderShopifyStack() {
 
     for (let i = 0; i < stack.length; i++) {
       result.push(
-        <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+        <div className="w-full aspect-square  hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
           <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
           <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
           <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -887,7 +887,7 @@ export default function Home() {
       <section className="w-full max-w-[1360px] mb-20 lg:mb-40 px-5">
         <h1 className="text-3xl lg:text-5xl font-black mb-10">Tech Stack</h1>
         <div className="grid grid-cols-2 lg:grid-cols-5 gap-5">
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square  hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -907,7 +907,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">Next.js</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square  hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -924,7 +924,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">React</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square  hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -944,7 +944,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">JavaScript</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square  hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -964,7 +964,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">TypeScript</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square  hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -981,7 +981,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">Node.js</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square  hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -998,7 +998,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">GraphQL</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square  hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1015,7 +1015,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">tailwind css</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square  hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1035,7 +1035,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">AWS</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square  hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1052,7 +1052,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">Vercel</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square  hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1069,7 +1069,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">Storybook</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square  hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1086,7 +1086,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">PostgresSQL</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square  hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1103,7 +1103,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">MySQL</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square  hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1120,7 +1120,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">NoSQL</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square  hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1137,7 +1137,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">Docker</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square  hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1159,7 +1159,7 @@ export default function Home() {
       <section className="w-full max-w-[1360px] mb-20 lg:mb-40 px-5">
         <h1 className="text-3xl lg:text-5xl font-black mb-10">APIs</h1>
         <div className="grid grid-cols-2 lg:grid-cols-5 gap-5">
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square  hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1172,7 +1172,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">ChatGPT</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square  hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1184,7 +1184,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">DHL</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square  hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1196,7 +1196,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">Internetmarke</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square  hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1208,7 +1208,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">DPD</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square  hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1220,7 +1220,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">FedEx</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square  hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1232,7 +1232,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">Shopify (Plus)</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square  hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1244,7 +1244,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">Amazon</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square  hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1256,7 +1256,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">Stripe</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square  hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1268,7 +1268,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">Klaviyo</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square  hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1285,7 +1285,7 @@ export default function Home() {
       <section className="w-full max-w-[1360px] mb-20 lg:mb-40 px-5">
         <h1 className="text-3xl lg:text-5xl font-black mb-10">Skills/Tools</h1>
         <div className="grid grid-cols-2 lg:grid-cols-5 gap-5">
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square  hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1297,7 +1297,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">Scrum</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square  hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1309,7 +1309,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">Kanban</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square  hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1321,7 +1321,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">ClickUp</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square  hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1333,7 +1333,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">Jira</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square  hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1345,7 +1345,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">Trello</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square  hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1357,7 +1357,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">Asana</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square  hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1369,7 +1369,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">Git</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square  hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1381,7 +1381,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">GitHub Actions</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square  hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
@@ -1393,7 +1393,7 @@ export default function Home() {
             </div>
             <span className="absolute bottom-2">Prompt Engineering</span>
           </div>
-          <div className="w-full aspect-square hover:cursor-pointer hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
+          <div className="w-full aspect-square  hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -bottom-3 -left-3  text-black" />
             <Icon className="flex absolute h-6 w-6 -top-3 -right-3  text-black" />
