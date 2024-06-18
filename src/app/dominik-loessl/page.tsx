@@ -523,7 +523,7 @@ export default function Home() {
           <span className="font-black leading-6 text-xl lg:text-2xl uppercase">
             Milveo® <br /> Experts
           </span>
-          <button className=" bg-slate-800 no-underline group cursor-pointer relative shadow-2xl shadow-zinc-900 rounded-full p-px text-xs font-semibold leading-6  text-white inline-block">
+          <button className=" bg-slate-800 no-underline group cursor-pointer relative shadow-sm shadow-zinc-900 rounded-full p-px text-xs font-semibold leading-6  text-white inline-block">
             <span className="absolute inset-0 overflow-hidden rounded-full">
               <span className="absolute inset-0 rounded-full bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(56,189,248,0.6)_0%,rgba(56,189,248,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
             </span>
@@ -561,24 +561,26 @@ export default function Home() {
             <Icon className="hidden lg:flex absolute h-6 w-6 -top-3 -right-3  text-black" />
             <Icon className="hidden lg:flex absolute h-6 w-6 -bottom-3 -right-3  text-black" />
             <div className="flex flex-col">
-              <p className="mb-2 text-sm">👋 Ich bin</p>
+              <p className="mb-2">👋 Ich bin</p>
               <h2 className="text-4xl font-black mb-3">Dominik Lössl</h2>
-              <p className="mb-2 lg:mb-5 text-sm">
+              <p className="mb-3">
                 und leidenschaftlicher Full-Stack Developer. Mit über 10 Jahren
                 Erfahrung im Aufbau robuster und skalierbarer Webanwendungen,
                 sowohl im E-Commerce-Bereich als auch in anderen Branchen,
                 beherrsche ich sowohl die Frontend- als auch die
                 Backend-Entwicklung in mehreren Programmiersprachen und
-                Frameworks. <br /> <br />
+                Frameworks.
+              </p>
+              <p className="mb-8">
                 In den letzten 5 Jahren legte ich meinen Fokus stark auf den
                 E-Commerce Bereich und die Entwicklung performanter, conversion
                 optimierter Onlineshops mit Shopify (Plus) im Mittelstand &
                 Enterprise Bereich. Durch den Betrieb eigener Onlineshops und
                 Marktplatzgeschäften habe ich den direkten Einblick und kenne
-                die Probleme der Kunden. <br /> <br />
+                die Probleme der Kunden.
               </p>
-              <div className="flex gap-3 lg:gap-5 mb-5 lg:mb-10">
-                <ul className="flex-col gap-1 lg:mb-5">
+              <div className="flex gap-3 lg:gap-5 mb-8">
+                <ul className="flex-col gap-1">
                   <li className="flex gap-1 align-middle items-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -592,7 +594,7 @@ export default function Home() {
                         d="M10.21,14.75a1,1,0,0,0,1.42,0l4.08-4.08a1,1,0,0,0-1.42-1.42l-3.37,3.38L9.71,11.41a1,1,0,0,0-1.42,1.42ZM21,2H3A1,1,0,0,0,2,3V21a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V3A1,1,0,0,0,21,2ZM20,20H4V4H20Z"
                       ></path>
                     </svg>
-                    <span className="font-semibold text-xs lg:text-sm">
+                    <span className="font-semibold text-xs min-[390px]:text-[0.8rem] min-[414px]:text-[0.9rem] lg:text-base">
                       10+ Jahre Erfahrung
                     </span>
                   </li>
@@ -609,7 +611,7 @@ export default function Home() {
                         d="M10.21,14.75a1,1,0,0,0,1.42,0l4.08-4.08a1,1,0,0,0-1.42-1.42l-3.37,3.38L9.71,11.41a1,1,0,0,0-1.42,1.42ZM21,2H3A1,1,0,0,0,2,3V21a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V3A1,1,0,0,0,21,2ZM20,20H4V4H20Z"
                       ></path>
                     </svg>
-                    <span className="font-semibold text-xs lg:text-sm">
+                    <span className="font-semibold text-xs min-[390px]:text-[0.8rem] min-[414px]:text-[0.9rem] lg:text-base">
                       Projektmanager
                     </span>
                   </li>
@@ -626,7 +628,7 @@ export default function Home() {
                         d="M10.21,14.75a1,1,0,0,0,1.42,0l4.08-4.08a1,1,0,0,0-1.42-1.42l-3.37,3.38L9.71,11.41a1,1,0,0,0-1.42,1.42ZM21,2H3A1,1,0,0,0,2,3V21a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V3A1,1,0,0,0,21,2ZM20,20H4V4H20Z"
                       ></path>
                     </svg>
-                    <span className="font-semibold text-xs lg:text-sm">
+                    <span className="font-semibold text-xs min-[390px]:text-[0.8rem] min-[414px]:text-[0.9rem] lg:text-base">
                       Lead Developer
                     </span>
                   </li>
@@ -645,7 +647,7 @@ export default function Home() {
                         d="M10.21,14.75a1,1,0,0,0,1.42,0l4.08-4.08a1,1,0,0,0-1.42-1.42l-3.37,3.38L9.71,11.41a1,1,0,0,0-1.42,1.42ZM21,2H3A1,1,0,0,0,2,3V21a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V3A1,1,0,0,0,21,2ZM20,20H4V4H20Z"
                       ></path>
                     </svg>
-                    <span className="font-semibold text-xs lg:text-sm">
+                    <span className="font-semibold text-xs min-[390px]:text-[0.8rem] min-[414px]:text-[0.9rem] lg:text-base">
                       E-Commerce Berater
                     </span>
                   </li>
@@ -662,7 +664,7 @@ export default function Home() {
                         d="M10.21,14.75a1,1,0,0,0,1.42,0l4.08-4.08a1,1,0,0,0-1.42-1.42l-3.37,3.38L9.71,11.41a1,1,0,0,0-1.42,1.42ZM21,2H3A1,1,0,0,0,2,3V21a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V3A1,1,0,0,0,21,2ZM20,20H4V4H20Z"
                       ></path>
                     </svg>
-                    <span className="font-semibold text-xs lg:text-sm">
+                    <span className="font-semibold text-xs min-[390px]:text-[0.8rem] min-[414px]:text-[0.9rem] lg:text-base">
                       Onlineshop Betreiber
                     </span>
                   </li>
@@ -679,14 +681,14 @@ export default function Home() {
                         d="M10.21,14.75a1,1,0,0,0,1.42,0l4.08-4.08a1,1,0,0,0-1.42-1.42l-3.37,3.38L9.71,11.41a1,1,0,0,0-1.42,1.42ZM21,2H3A1,1,0,0,0,2,3V21a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V3A1,1,0,0,0,21,2ZM20,20H4V4H20Z"
                       ></path>
                     </svg>
-                    <span className="font-semibold text-xs lg:text-sm">
+                    <span className="font-semibold text-xs min-[390px]:text-[0.8rem] min-[414px]:text-[0.9rem] lg:text-base">
                       Milveo® Gründer & CTO
                     </span>
                   </li>
                 </ul>
               </div>
               <div className="flex gap-3">
-                <button className="w-fit bg-slate-800 no-underline group cursor-pointer relative shadow-2xl shadow-zinc-900 rounded-full p-px text-xs font-semibold leading-6  text-white inline-block">
+                <button className="w-fit bg-slate-800 no-underline group cursor-pointer relative shadow-sm shadow-zinc-900 rounded-full p-px text-xs font-semibold leading-6  text-white inline-block">
                   <span className="absolute inset-0 overflow-hidden rounded-full">
                     <span className="absolute inset-0 rounded-full bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(56,189,248,0.6)_0%,rgba(56,189,248,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
                   </span>
@@ -842,7 +844,7 @@ export default function Home() {
               Shopify Experte und E-Commerce Berater in dein Projekt.
             </div>
             <div className="flex justify-end gap-3">
-              <button className="w-fit bg-slate-800 no-underline group cursor-pointer relative shadow-2xl shadow-zinc-900 rounded-full p-px text-xs font-semibold leading-6  text-white inline-block">
+              <button className="w-fit bg-slate-800 no-underline group cursor-pointer relative shadow-sm shadow-zinc-900 rounded-full p-px text-xs font-semibold leading-6  text-white inline-block">
                 <span className="absolute inset-0 overflow-hidden rounded-full">
                   <span className="absolute inset-0 rounded-full bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(56,189,248,0.6)_0%,rgba(56,189,248,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
                 </span>
