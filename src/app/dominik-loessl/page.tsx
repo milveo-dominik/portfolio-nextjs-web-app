@@ -1013,7 +1013,7 @@ export default function Home() {
                 <img src={TailwindCSSLogo.src} className="w-full" alt="" />
               </div>
             </div>
-            <span className="absolute bottom-2">tailwind css</span>
+            <span className="absolute bottom-2">Tailwind CSS</span>
           </div>
           <div className="w-full aspect-square  hover:bg-boxes hover:border-black/[0.2] border-y border-black/[0.1] border lg:border-black/[0.2] group/canvas-card flex items-center justify-center mx-auto p-5 relative">
             <Icon className="flex absolute h-6 w-6 -top-3 -left-3  text-black" />
@@ -1447,7 +1447,7 @@ export default function Home() {
               badges: ["Shopify", "Theme", "Tracking", "Klaviyo", "AWS"],
             },
             {
-              title: "Colours and Sons",
+              title: "Colours & Sons",
               description:
                 "Redesign und Entwicklung des Shopify Stores. Anbindung an internes Versand und Inventarisierungs-Systems. Import von mehrsprachigen Produkten und dynamische uordnung der Varianten anhand der SKUs.",
               link: "https://coloursandsons.com",
