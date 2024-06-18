@@ -561,9 +561,9 @@ export default function Home() {
             <Icon className="hidden lg:flex absolute h-6 w-6 -top-3 -right-3  text-black" />
             <Icon className="hidden lg:flex absolute h-6 w-6 -bottom-3 -right-3  text-black" />
             <div className="flex flex-col">
-              <p className="mb-2 text-base lg:text-sm">👋 Ich bin</p>
+              <p className="mb-2 text-sm">👋 Ich bin</p>
               <h2 className="text-4xl font-black mb-3">Dominik Lössl</h2>
-              <p className="mb-2 lg:mb-5 text-base lg:text-sm">
+              <p className="mb-2 lg:mb-5 text-sm">
                 und leidenschaftlicher Full-Stack Developer. Mit über 10 Jahren
                 Erfahrung im Aufbau robuster und skalierbarer Webanwendungen,
                 sowohl im E-Commerce-Bereich als auch in anderen Branchen,
